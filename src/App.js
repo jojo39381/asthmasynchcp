@@ -3,17 +3,21 @@ import './App.css';
 import NavBar from './navbar.js'
 import PatientsOverview from './PatientsOverview.js'
 import Schedule from './Schedule.js'
+import Home from './Home.js'
+import PatientDetails from './PatientDetails.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
-      <div style={{float:"left", margin: 100}}>
-        <PatientsOverview></PatientsOverview>
-      </div>
-      <div style={{float:"right", margin: 100}}>
-        <Schedule></Schedule>
-      </div>
+      <BrowserRouter>
+       <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/page2" component={PatientDetails} />
+      </Switch>
+      </BrowserRouter>
     </div>
   );
 }
