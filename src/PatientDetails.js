@@ -96,7 +96,7 @@ const PatientDetails = () => {
                 </div>
             </div>
             <div style={{width:"90%", backgroundColor:"white", margin:"0 auto", marginTop:"100px"}}>
-                <div style={{display:"inline-block", }}>
+                <div style={{display:"inline-block", marginLeft:50, marginRight:50}}>
                     <h5 style={{textAlign:"left"}}>Asthma Health Score</h5>
                     <LineChart
                         width={400}
@@ -111,7 +111,7 @@ const PatientDetails = () => {
                         
                     </LineChart>
                 </div>
-                <div style={{display:"inline-block", }}>
+                <div style={{display:"inline-block", marginLeft:50, marginRight:50}}>
                     <h5 style={{textAlign:"left"}}>Symptom Tracker</h5>
                     <LineChart
                         width={400}
@@ -126,7 +126,7 @@ const PatientDetails = () => {
                         
                     </LineChart>
                 </div>
-                <div style={{display:"inline-block", }}>
+                <div style={{display:"inline-block", marginLeft:50, marginRight:50}}>
                     <h5 style={{textAlign:"left"}}>Biometrics</h5>
                     <LineChart
                         width={400}
@@ -141,7 +141,7 @@ const PatientDetails = () => {
                         
                     </LineChart>
                 </div>
-                <div style={{display:"inline-block", }}>
+                <div style={{display:"inline-block",marginLeft:50, marginRight:50 }}>
                     <h5 style={{textAlign:"left"}}>Environmental</h5>
                     <LineChart
                         width={400}

@@ -34,7 +34,7 @@ const PatientsOverview = () => {
                 <div style={{margin:"0 auto", backgroundColor:"black"}}>
                 <div style={{float:"left", margin: "30px"}}>
                     <div style={{backgroundColor:'#D3222C', width:30, height:30, display:"inline-block", float:"left", marginRight:"20px"}}>
-  
+    
                     </div>
                     <p style={{display:"inline-block", fontSize:20, float:"left"}}>1 Patient</p>
                 </div>
